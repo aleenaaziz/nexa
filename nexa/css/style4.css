@@ -1,0 +1,215 @@
+body {
+    color: white;
+    overflow-x: hidden;
+    background: #15212a;
+    width: 100%;
+  }
+  
+  nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 30px;
+  }
+  .navbar {
+    display: flex;
+  }
+  .nav-container {
+    margin-left: 5rem;
+  }
+  .nav-item {
+    list-style: none;
+    color: white;
+    color: #fff;
+    font-weight: 10;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+  }
+  .hamburger {
+    float: left;
+  }
+  .btn {
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(88deg, #ff8f08 0%, #ed1c62 100%));
+    display: flex;
+    padding: 0.9rem 2.5rem;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .heading {
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8rem;
+  }
+  .IPTV {
+    color: #ff8f08;
+  }
+  .heading2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .eighth-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+  }
+  .form {
+    margin-top: 5rem;
+    padding-left: 0rem;
+    width: 40rem;
+  }
+  
+  .eighth-section label {
+    display: block;
+  }
+  .eighth-section input,
+  textarea {
+    padding-left: 1rem;
+    border-radius: 10px;
+    border: 1.5px solid #fff;
+    background: none;
+    height: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    label,
+    input,
+    textarea {
+      width: 48%;
+    }
+  }
+  .eighth-section textarea {
+    height: 6rem;
+    width: 100%;
+  }
+  
+  .inner-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .inner-div div{
+    width: 48%;
+    margin-left: 0rem;
+  }
+  .email{
+    margin-left: -0.9rem;
+  }
+  .eighth-section button{
+    height: 2.5rem;
+    margin-top: 1rem;
+  }
+  .information {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin-left: 3rem; */
+    margin-top: 5rem;
+    width: auto;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+    border: 1.5px solid #fff;
+    background: var(
+      --radial-2-paints,
+      radial-gradient(
+        96.92% 85.52% at 30.11% 100%,
+        rgba(255, 143, 8, 0.24) 0%,
+        rgba(237, 28, 98, 0.04) 100%
+      ),
+      radial-gradient(
+        106.94% 141.42% at 100% 1.62%,
+        rgba(122, 129, 122, 0.12) 0%,
+        rgba(7, 7, 9, 0.3) 100%
+      )
+    );
+  }
+  .information h5{
+    width: 20rem;
+  }
+  .information img{
+    width: 2.3rem;
+    margin: 0.5rem;
+  }
+  .information div{
+    font-size: 1.2rem;
+    display: flex;
+    width: 20rem;
+  }
+  .information div div{
+    text-align: left;
+  }
+
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .footer-container1 {
+    width: 10rem;
+  }
+  .footer-container1 img {
+    width: 8rem;
+  }
+  .footer-container2 {
+    width: 20rem;
+  }
+  .footer-container3 {
+    width: 10rem;
+    /* margin-left: 10rem; */
+  }
+  .footer-container4 {
+    width: 20rem;
+  }
+  footer p {
+    font-weight: 1;
+    color: rgba(255, 255, 255, 0.60);
+  }
+  .footer input{
+    padding-left: 1rem;
+    border-radius: 10px;
+    width: 20rem;
+    border: 1.5px solid #fff;
+    background: none;
+    height: 3rem;
+  }
+  .vector {
+    width: 20rem;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .footer-bottom div p {
+    /* padding-left: 4rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
